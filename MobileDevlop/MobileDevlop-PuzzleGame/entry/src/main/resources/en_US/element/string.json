@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "game1_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "game1_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_game1",
+      "value": "entry_game1"
+    },
+    {
+      "name": "author_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "author_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_author",
+      "value": "entry_author"
+    },
+    {
+      "name": "rule_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "rule_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_rule",
+      "value": "entry_rule"
+    },
+    {
+      "name": "dynamicpage_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "dynamicpage_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_DynamicPage",
+      "value": "entry_DynamicPage"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:first"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:play"
+        ohos:height="40vp"
+        ohos:width="150vp"
+        ohos:top_margin="350vp"
+        ohos:text="开 始 游 戏"
+        ohos:text_size="25vp"
+        ohos:text_color="#FF8000"
+        ohos:text_alignment="center"
+        ohos:text_weight="1000"
+        ohos:background_element="#00CCCC"
+        ohos:layout_alignment="center"
+        />
+    <Button
+        ohos:id="$+id:info"
+        ohos:height="40vp"
+        ohos:width="150vp"
+        ohos:text="著 者 信 息"
+        ohos:text_size="25vp"
+        ohos:text_color="#FFFFFF"
+        ohos:text_alignment="center"
+        ohos:text_weight="1000"
+        ohos:background_element="#00CC00"
+        ohos:top_margin="10vp"
+        ohos:layout_alignment="center"
+        />
+    <Button
+        ohos:id="$+id:help"
+        ohos:height="40vp"
+        ohos:width="150vp"
+        ohos:text="规 则 讲 解"
+        ohos:text_size="25vp"
+        ohos:text_color="#00CC00"
+        ohos:text_alignment="center"
+        ohos:text_weight="1000"
+        ohos:background_element="#FF8000"
+        ohos:top_margin="10vp"
+        ohos:layout_alignment="center"
+        />
+
+</DirectionalLayout>

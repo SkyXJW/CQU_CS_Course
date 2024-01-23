@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "rectravel_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "rectravel_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_rectravel",
+      "value": "entry_rectravel"
+    },
+    {
+      "name": "viewplan_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "viewplan_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_viewplan",
+      "value": "entry_viewplan"
+    },
+    {
+      "name": "information_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "information_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_information",
+      "value": "entry_information"
+    },
+    {
+      "name": "viewrec_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "viewrec_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_viewrec",
+      "value": "entry_viewrec"
+    },
+    {
+      "name": "imagecompressionutil_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "imagecompressionutil_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ImageCompressionUtil",
+      "value": "entry_ImageCompressionUtil"
+    }
+  ]
+}

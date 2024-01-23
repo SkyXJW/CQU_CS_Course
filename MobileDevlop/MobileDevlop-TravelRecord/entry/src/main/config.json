@@ -1,0 +1,126 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "request internet",
+        "usedScene": {
+          "ability": [
+            "com.example.myapplication.slice.rectravel"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "11",
+        "usedScene": {
+          "ability": [
+            "com.example.myapplication.slice.rectravel"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "reason": "11",
+        "usedScene": {
+          "ability": [
+            "com.example.myapplication.slice.rectravel"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO_PRIVILEGED",
+        "reason": "11",
+        "usedScene": {
+          "ability": [
+            "com.example.myapplication.slice.rectravel"
+          ],
+          "when": "always"
+        }
+      }
+    ],
+    "package": "com.example.myapplication",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.myapplication.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.myapplication.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.slice.rectravel",
+        "description": "$string:rectravel_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_rectravel",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.slice.slice.viewplan",
+        "description": "$string:viewplan_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_viewplan",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.slice.slice.slice.information",
+        "description": "$string:information_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_information",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.slice.slice.slice.viewrec",
+        "description": "$string:viewrec_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_viewrec",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      }
+    ]
+  }
+}

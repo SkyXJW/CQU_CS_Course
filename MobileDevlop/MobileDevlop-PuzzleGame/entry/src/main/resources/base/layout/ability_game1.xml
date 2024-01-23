@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:second"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:id="$+id:current"
+        ohos:height="340vp"
+        ohos:width="310vp"
+        ohos:image_src="$media:md_0"
+        ohos:background_element="$media:k0"
+        ohos:layout_alignment="center"
+        ohos:top_margin="10vp"
+        ohos:padding="15vp"
+        ohos:scale_mode="stretch"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical">
+
+        <Button
+            ohos:id="$+id:begin"
+            ohos:height="match_content"
+            ohos:width="150vp"
+            ohos:left_margin="100vp"
+            ohos:text="开始拼图"
+            ohos:text_size="25vp"
+            ohos:text_color="#FFBC36"
+            ohos:text_weight="1000"
+            ohos:top_margin="25vp"
+            />
+
+        <Button
+            ohos:id="$+id:select"
+            ohos:height="match_content"
+            ohos:width="150vp"
+            ohos:left_margin="100vp"
+            ohos:text="划分选择"
+            ohos:text_size="25vp"
+            ohos:text_color="#FFBC36"
+            ohos:text_weight="1000"
+            ohos:top_margin="10vp"
+            />
+
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:id="$+id:xiangce"
+            ohos:height="40vp"
+            ohos:width="140vp"
+            ohos:background_element="$media:xiangce"
+            ohos:left_margin="20vp"
+            ohos:top_margin="20vp"
+            />
+        <Button
+            ohos:id="$+id:paizhao"
+            ohos:height="40vp"
+            ohos:width="140vp"
+            ohos:background_element="$media:paizhao"
+            ohos:left_margin="40vp"
+            ohos:top_margin="20vp"
+            />
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal">
+
+    <ListContainer
+        ohos:id="$+id:listContainer"
+        ohos:height="match_content"
+        ohos:width="157vp"
+        ohos:orientation="vertical"
+        ohos:start_margin="10vp"
+        ohos:end_margin="10vp"
+        ohos:top_margin="20vp"
+        />
+        <ListContainer
+            ohos:id="$+id:listContainer_1"
+            ohos:height="match_content"
+            ohos:width="157vp"
+            ohos:orientation="vertical"
+            ohos:start_margin="10vp"
+            ohos:end_margin="10vp"
+            ohos:top_margin="20vp"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>

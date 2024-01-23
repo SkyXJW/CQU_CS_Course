@@ -1,0 +1,84 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.example.myapplication",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.myapplication.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.myapplication.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.game1",
+        "description": "$string:game1_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_game1",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.author",
+        "description": "$string:author_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_author",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.rule",
+        "description": "$string:rule_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_rule",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.DynamicPage",
+        "description": "$string:dynamicpage_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_DynamicPage",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "type": "page"
+      }
+    ]
+  }
+}

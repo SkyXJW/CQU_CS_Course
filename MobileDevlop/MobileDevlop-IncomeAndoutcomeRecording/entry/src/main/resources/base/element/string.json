@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "手机记录APP"
+    },
+    {
+      "name": "entry_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "收支记录APP"
+    },
+    {
+      "name": "edit_text",
+      "value": "编辑"
+    },
+    {
+      "name": "pay_text",
+      "value": "支出"
+    },
+    {
+      "name": "income_text",
+      "value": "收入"
+    },
+    {
+      "name": "count_text",
+      "value": "金额"
+    },
+    {
+      "name": "date_text",
+      "value": "日期"
+    },
+    {
+      "name": "reminder_text",
+      "value": "备注"
+    },
+    {
+      "name": "input_text",
+      "value": "请输入金额"
+    },
+    {
+      "name": "input_reminder",
+      "value": "请添加备注"
+    },
+    {
+      "name": "confirm_text",
+      "value": "确定"
+    },
+    {
+      "name": "all",
+      "value": "全部"
+    }
+  ]
+}

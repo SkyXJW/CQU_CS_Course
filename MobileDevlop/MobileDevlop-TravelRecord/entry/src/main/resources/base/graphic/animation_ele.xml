@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:onehot="false">
+    <item ohos:element="$media:main_2" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_3" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_4" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_5" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_6" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_7" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_8" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_9" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_10" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_11" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_12" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+    <item ohos:element="$media:main_13" ohos:height="100vp" ohos:width="100vp" ohos:duration="300"/>
+</animation-list>
